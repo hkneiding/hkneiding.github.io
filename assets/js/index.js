@@ -18,12 +18,14 @@ function initialiseParticles() {
             options: {
                 maxParticles: 80,
                 sizeVariations : 4,
+                minDistance: 80,
                 }
             }, {
             breakpoint: 425,
             options: {
-                maxParticles: 50,
+                maxParticles: 40,
                 sizeVariations : 4,
+                minDistance: 60,
                 }
             }, {
             breakpoint: 320,
